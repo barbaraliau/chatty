@@ -6,8 +6,7 @@ app.controller('MessageCtrl', function ($scope, MessageService) {
 
 var displayMessages = function(){
     MessageService.getMessages().then(function(response){
-    	console.log(response.data.message);
-    	$scope.messages = response.data.message;
+    	$scope.messages = response.data;
     });
  }  
 

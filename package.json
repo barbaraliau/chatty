@@ -1,0 +1,25 @@
+{
+  "name": "chatty",
+  "version": "1.0.0",
+  "description": "chatty ======",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.11.0",
+    "express": "^4.11.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barbaraliau/chatty.git"
+  },
+  "author": "Barbara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barbaraliau/chatty/issues"
+  },
+  "homepage": "https://github.com/barbaraliau/chatty"
+}
